@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author Cipri
+ *
+ */
+module ToyLanguage {
+}

@@ -1,0 +1,244 @@
+ExecStack: 
+	c = 5 - 1 ;IfStmt( c, then: v = 1 else:v = 2 );Print( v )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+Output: 
+	Empty
+
+ExecStack: 
+	c = 5 - 1 
+	IfStmt( c, then: v = 1 else:v = 2 );Print( v )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+Output: 
+	Empty
+
+ExecStack: 
+	IfStmt( c, then: v = 1 else:v = 2 );Print( v )
+
+
+SymbolTbl: 
+	c     = 4
+
+
+FileTable: 
+	Empty
+
+Output: 
+	Empty
+
+ExecStack: 
+	IfStmt( c, then: v = 1 else:v = 2 )
+	Print( v )
+
+
+SymbolTbl: 
+	c     = 4
+
+
+FileTable: 
+	Empty
+
+Output: 
+	Empty
+
+ExecStack: 
+	v = 1 
+	Print( v )
+
+
+SymbolTbl: 
+	c     = 4
+
+
+FileTable: 
+	Empty
+
+Output: 
+	Empty
+
+ExecStack: 
+	Print( v )
+
+
+SymbolTbl: 
+	v     = 1
+	c     = 4
+
+
+FileTable: 
+	Empty
+
+Output: 
+	Empty
+
+ExecStack: 
+Empty
+
+SymbolTbl: 
+	v     = 1
+	c     = 4
+
+
+FileTable: 
+	Empty
+
+Output: 
+	1, 
+_________________________________________________________________
+
+ExecStack: 
+	c = 5 - 1 ;If ( c, then: v = 1 else:v = 2 );Print( v )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	c = 5 - 1 
+	If ( c, then: v = 1 else:v = 2 );Print( v )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	If ( c, then: v = 1 else:v = 2 );Print( v )
+
+
+SymbolTbl: 
+	c     = 4
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	If ( c, then: v = 1 else:v = 2 )
+	Print( v )
+
+
+SymbolTbl: 
+	c     = 4
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	v = 1 
+	Print( v )
+
+
+SymbolTbl: 
+	c     = 4
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	Print( v )
+
+
+SymbolTbl: 
+	v     = 1
+	c     = 4
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+Empty
+
+SymbolTbl: 
+	v     = 1
+	c     = 4
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	1, 

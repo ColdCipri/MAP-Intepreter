@@ -1,0 +1,316 @@
+_________________________________________________________________
+
+ExecStack: 
+	a = 10 + 2 < 6 ;Print( a )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	a = 10 + 2 < 6 
+	Print( a )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	Print( a )
+
+
+SymbolTbl: 
+	a     = 11
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+Empty
+
+SymbolTbl: 
+	a     = 11
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	11, 
+_________________________________________________________________
+
+ExecStack: 
+	a = 10 + 2 < 6 ;Print( a )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	a = 10 + 2 < 6 
+	Print( a )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	Print( a )
+
+
+SymbolTbl: 
+	a     = 11
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+Empty
+
+SymbolTbl: 
+	a     = 11
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	11, 
+_________________________________________________________________
+
+ExecStack: 
+	a = 10 + 2 < 6 ;Print( a )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	a = 10 + 2 < 6 
+	Print( a )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	Print( a )
+
+
+SymbolTbl: 
+	a     = 11
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+Empty
+
+SymbolTbl: 
+	a     = 11
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	Empty
+
+Output: 
+	11, 
+_________________________________________________________________
+
+ExecStack: 
+	a = 10 + 2 < 6 ;Print( a )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	a = 10 + 2 < 6 
+	Print( a )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	Print( a )
+
+
+SymbolTbl: 
+	a     = 11
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+Empty
+
+SymbolTbl: 
+	a     = 11
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	Empty
+
+Output: 
+	11, 

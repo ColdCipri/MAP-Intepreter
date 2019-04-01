@@ -1,0 +1,836 @@
+_________________________________________________________________
+
+ExecStack: 
+	v = 10 ;new( v, 20);new( a, 22);Print( 100 + v );Print( 100 + a )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	v = 10 
+	new( v, 20);new( a, 22);Print( 100 + v );Print( 100 + a )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	new( v, 20);new( a, 22);Print( 100 + v );Print( 100 + a )
+
+
+SymbolTbl: 
+	v     = 10
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	new( v, 20)
+	new( a, 22);Print( 100 + v );Print( 100 + a )
+
+
+SymbolTbl: 
+	v     = 10
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	new( a, 22);Print( 100 + v );Print( 100 + a )
+
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	1     = 20   
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	new( a, 22)
+	Print( 100 + v );Print( 100 + a )
+
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	1     = 20   
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	Print( 100 + v );Print( 100 + a )
+
+
+SymbolTbl: 
+	a     = 2
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	1     = 20   
+	2     = 22   
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	Print( 100 + v )
+	Print( 100 + a )
+
+
+SymbolTbl: 
+	a     = 2
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	1     = 20   
+	2     = 22   
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	Print( 100 + a )
+
+
+SymbolTbl: 
+	a     = 2
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	1     = 20   
+	2     = 22   
+
+Output: 
+	120, 
+_________________________________________________________________
+
+ExecStack: 
+Empty
+
+SymbolTbl: 
+	a     = 2
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	1     = 20   
+	2     = 22   
+
+Output: 
+	120, 122, 
+_________________________________________________________________
+
+ExecStack: 
+	v = 10 ;new( v, 20);new( a, 22);Print( 100 + v );Print( 100 + a )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	v = 10 
+	new( v, 20);new( a, 22);Print( 100 + v );Print( 100 + a )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	new( v, 20);new( a, 22);Print( 100 + v );Print( 100 + a )
+
+
+SymbolTbl: 
+	v     = 10
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	new( v, 20)
+	new( a, 22);Print( 100 + v );Print( 100 + a )
+
+
+SymbolTbl: 
+	v     = 10
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	new( a, 22);Print( 100 + v );Print( 100 + a )
+
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	1     = 20   
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	new( a, 22)
+	Print( 100 + v );Print( 100 + a )
+
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	1     = 20   
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	Print( 100 + v );Print( 100 + a )
+
+
+SymbolTbl: 
+	a     = 2
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	1     = 20   
+	2     = 22   
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	Print( 100 + v )
+	Print( 100 + a )
+
+
+SymbolTbl: 
+	a     = 2
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	1     = 20   
+	2     = 22   
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	Print( 100 + a )
+
+
+SymbolTbl: 
+	a     = 2
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	1     = 20   
+	2     = 22   
+
+Output: 
+	120, 
+_________________________________________________________________
+
+ExecStack: 
+Empty
+
+SymbolTbl: 
+	a     = 2
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	1     = 20   
+	2     = 22   
+
+Output: 
+	120, 122, 
+_________________________________________________________________
+
+ExecStack: 
+	v = 10 ;new( v, 20);new( a, 22);Print( 100 + v );Print( 100 + a )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	v = 10 
+	new( v, 20);new( a, 22);Print( 100 + v );Print( 100 + a )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	new( v, 20);new( a, 22);Print( 100 + v );Print( 100 + a )
+
+
+SymbolTbl: 
+	v     = 10
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	new( v, 20)
+	new( a, 22);Print( 100 + v );Print( 100 + a )
+
+
+SymbolTbl: 
+	v     = 10
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	new( a, 22);Print( 100 + v );Print( 100 + a )
+
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	1     = 20   
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	new( a, 22)
+	Print( 100 + v );Print( 100 + a )
+
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	1     = 20   
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	Print( 100 + v );Print( 100 + a )
+
+
+SymbolTbl: 
+	a     = 2
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	1     = 20   
+	2     = 22   
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	Print( 100 + v )
+	Print( 100 + a )
+
+
+SymbolTbl: 
+	a     = 2
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	1     = 20   
+	2     = 22   
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	Print( 100 + a )
+
+
+SymbolTbl: 
+	a     = 2
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	1     = 20   
+	2     = 22   
+
+Output: 
+	120, 
+_________________________________________________________________
+
+ExecStack: 
+Empty
+
+SymbolTbl: 
+	a     = 2
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	1     = 20   
+	2     = 22   
+
+Output: 
+	120, 122, 
+_________________________________________________________________
+
+ExecStack: 
+	v = 10 ;new( v, 20);new( a, 22);Print( 100 + rH( v)  );Print( 100 + rH( a)  )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	v = 10 
+	new( v, 20);new( a, 22);Print( 100 + rH( v)  );Print( 100 + rH( a)  )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	new( v, 20);new( a, 22);Print( 100 + rH( v)  );Print( 100 + rH( a)  )
+
+
+SymbolTbl: 
+	v     = 10
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	new( v, 20)
+	new( a, 22);Print( 100 + rH( v)  );Print( 100 + rH( a)  )
+
+
+SymbolTbl: 
+	v     = 10
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	new( a, 22);Print( 100 + rH( v)  );Print( 100 + rH( a)  )
+
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	1     = 20   
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	new( a, 22)
+	Print( 100 + rH( v)  );Print( 100 + rH( a)  )
+
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	1     = 20   
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	Print( 100 + rH( v)  );Print( 100 + rH( a)  )
+
+
+SymbolTbl: 
+	a     = 2
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	1     = 20   
+	2     = 22   
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	Print( 100 + rH( v)  )
+	Print( 100 + rH( a)  )
+
+
+SymbolTbl: 
+	a     = 2
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	1     = 20   
+	2     = 22   
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	Print( 100 + rH( a)  )
+
+
+SymbolTbl: 
+	a     = 2
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	1     = 20   
+	2     = 22   
+
+Output: 
+	120, 
+_________________________________________________________________
+
+ExecStack: 
+Empty
+
+SymbolTbl: 
+	a     = 2
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	1     = 20   
+	2     = 22   
+
+Output: 
+	120, 122, 

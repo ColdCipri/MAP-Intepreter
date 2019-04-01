@@ -1,0 +1,1215 @@
+Domain.MyStack@548a9f61
+Domain.SymbTbl@1753acfe
+
+FileTable: 
+	Empty
+
+Domain.Output@7c16905e
+Domain.MyStack@2a5ca609
+Domain.SymbTbl@20e2cbe0
+
+FileTable: 
+	Empty
+
+Domain.Output@68be2bc2
+Domain.MyStack@28feb3fa
+Domain.SymbTbl@675d3402
+
+FileTable: 
+	Empty
+
+Domain.Output@51565ec2
+Domain.MyStack@482f8f11
+Domain.SymbTbl@1593948d
+
+FileTable: 
+	Empty
+
+Domain.Output@1b604f19
+Domain.MyStack@548a9f61
+Domain.SymbTbl@1753acfe
+
+FileTable: 
+	Empty
+
+Domain.Output@7c16905e
+Domain.MyStack@2a5ca609
+Domain.SymbTbl@20e2cbe0
+
+FileTable: 
+	Empty
+
+Domain.Output@68be2bc2
+Domain.MyStack@28feb3fa
+Domain.SymbTbl@675d3402
+
+FileTable: 
+	Empty
+
+Domain.Output@51565ec2
+Domain.MyStack@482f8f11
+Domain.SymbTbl@1593948d
+
+FileTable: 
+	Empty
+
+Domain.Output@1b604f19
+ExecStack: 
+	Stmt.CompStmt@548a9f61
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+Domain.Output@1753acfe
+ExecStack: 
+	Stmt.AssignStmt@2a2d45ba
+	Stmt.PrintStmt@2a5ca609
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+Domain.Output@20e2cbe0
+ExecStack: 
+	Stmt.PrintStmt@2a5ca609
+
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+Domain.Output@68be2bc2
+ExecStack: 
+Empty
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+Domain.Output@28feb3fa
+ExecStack: 
+	Stmt.CompStmt@548a9f61
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+Output: 
+	Empty
+
+ExecStack: 
+	v = Exp.ConstExp@7c16905e 
+	Stmt.PrintStmt@2a2d45ba
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+Output: 
+	Empty
+
+ExecStack: 
+	Stmt.PrintStmt@2a2d45ba
+
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+Output: 
+	Empty
+
+ExecStack: 
+Empty
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+Output: 
+	1, 
+ExecStack: 
+	v = Exp.ConstExp@548a9f61 ;Print( Exp.VarExp@1753acfe )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+Output: 
+	Empty
+
+ExecStack: 
+	v = Exp.ConstExp@548a9f61 
+	Print( Exp.VarExp@1753acfe )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+Output: 
+	Empty
+
+ExecStack: 
+	Print( Exp.VarExp@1753acfe )
+
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+Output: 
+	Empty
+
+ExecStack: 
+Empty
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+Output: 
+	1, 
+ExecStack: 
+	v = 1 ;Print( v )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+Output: 
+	Empty
+
+ExecStack: 
+	v = 1 
+	Print( v )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+Output: 
+	Empty
+
+ExecStack: 
+	Print( v )
+
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+Output: 
+	Empty
+
+ExecStack: 
+Empty
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+Output: 
+	1, 
+ExecStack: 
+	v = 1 ;Print( v )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+Output: 
+	Empty
+
+ExecStack: 
+	v = 1 
+	Print( v )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+Output: 
+	Empty
+
+ExecStack: 
+	Print( v )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+Output: 
+	Empty
+
+ExecStack: 
+Empty
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+Output: 
+	1, 
+ExecStack: 
+	v = 1 ;Print( v )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+Output: 
+	Empty
+
+ExecStack: 
+	v = 1 
+	Print( v )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+Output: 
+	Empty
+
+ExecStack: 
+	Print( v )
+
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+Output: 
+	Empty
+
+ExecStack: 
+Empty
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+Output: 
+	1, 
+ExecStack: 
+	v = 1 ;Print( v )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+Output: 
+	Empty
+
+ExecStack: 
+	v = 1 
+	Print( v )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+Output: 
+	Empty
+
+ExecStack: 
+	Print( v )
+
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+Output: 
+	Empty
+
+ExecStack: 
+Empty
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+Output: 
+	1, 
+ExecStack: 
+	v = 1 ;Print( v )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+Output: 
+	Empty
+
+ExecStack: 
+	v = 1 
+	Print( v )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+Output: 
+	Empty
+
+ExecStack: 
+	Print( v )
+
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+Output: 
+	Empty
+
+ExecStack: 
+Empty
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+Output: 
+	1, 
+ExecStack: 
+	v = 1 ;Print( v )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+Output: 
+	Empty
+
+ExecStack: 
+	v = 1 
+	Print( v )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+Output: 
+	Empty
+
+ExecStack: 
+	Print( v )
+
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+Output: 
+	Empty
+
+ExecStack: 
+Empty
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+Output: 
+	1, 
+ExecStack: 
+	v = 1 ;Print( v )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+Output: 
+	Empty
+
+ExecStack: 
+	v = 1 
+	Print( v )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+Output: 
+	Empty
+
+ExecStack: 
+	Print( v )
+
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+Output: 
+	Empty
+
+ExecStack: 
+Empty
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+Output: 
+	1, 
+_________________________________________________________________
+
+ExecStack: 
+	v = 1 ;Print( v )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	v = 1 
+	Print( v )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	Print( v )
+
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+Empty
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+Output: 
+	1, 
+_________________________________________________________________
+
+ExecStack: 
+	v = 1 ;Print( v )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	v = 1 
+	Print( v )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	Print( v )
+
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+Empty
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	1, 
+_________________________________________________________________
+
+ExecStack: 
+	v = 1 ;Print( v )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	v = 1 
+	Print( v )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	Print( v )
+
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+Empty
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	1, 
+_________________________________________________________________
+
+ExecStack: 
+	v = 1 ;Print( v )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	v = 1 
+	Print( v )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	Print( v )
+
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+Empty
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	Empty
+
+Output: 
+	1, 
+_________________________________________________________________
+
+ExecStack: 
+	v = 1 ;Print( v )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	v = 1 
+	Print( v )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	Print( v )
+
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+Empty
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	Empty
+
+Output: 
+	1, 
+_________________________________________________________________
+
+ExecStack: 
+	v = 1 ;Print( v )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	v = 1 
+	Print( v )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	Print( v )
+
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+Empty
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	Empty
+
+Output: 
+	1, 
+_________________________________________________________________
+
+ExecStack: 
+	v = 1 ;Print( v )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	v = 1 
+	Print( v )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	Print( v )
+
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+Empty
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	Empty
+
+Output: 
+	1, 
+_________________________________________________________________
+
+ExecStack: 
+	v = 1 ;Print( v )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	v = 1 
+	Print( v )
+
+
+SymbolTbl: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+	Print( v )
+
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	Empty
+
+Output: 
+	Empty
+
+_________________________________________________________________
+
+ExecStack: 
+Empty
+
+SymbolTbl: 
+	v     = 1
+
+
+FileTable: 
+	Empty
+
+
+Heap: 
+	Empty
+
+Output: 
+	1, 
